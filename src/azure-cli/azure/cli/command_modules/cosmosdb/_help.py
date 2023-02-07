@@ -1409,7 +1409,7 @@ examples:
 
 helps['managed-cassandra cluster deallocate'] = """
 type: command
-short-summary: Deallocate the Managed Cassandra Cluster and Associated Data Centers. Deallocation will deallocate the host virtual machine of this cluster, and reserved the data disk. This won't do anything on an already deallocated cluster. Use Start to restart the cluster.
+short-summary: Deallocate the Managed Cassandra Cluster and Associated Data Centers. Deallocation will deallocate the host virtual machine of this cluster, and preserves the data disk. This won't do anything on an already deallocated cluster. Use Start to restart the cluster.
 examples:
   - name: This command deallocates this cluster.
     text: |
